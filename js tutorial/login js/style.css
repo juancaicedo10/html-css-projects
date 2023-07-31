@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://i.pinimg.com/originals/01/5a/17/015a1757e67f766a12621af543b3a5fd.jpg');
+    background-size: cover;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    justify-content: space-around;
+    flex-direction: wrap;
+}
+
+.bar h1 {
+    color: white;
+}
+
+.list {
+    position: relative;
+    width: 400px;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.list li {
+    cursor:pointer;
+}
+
+
+
+.loginBar {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color:white;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.loginContainer {
+    display: none;
+    flex-direction: column;
+    width: 450px;
+    transform: translateY(30%);
+    border-radius: 15px;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    background-color: white;
+}
+
+
+
+.loginContainer h1 {
+    margin: 40px 0 30px 0;
+}
+
+.inputsContainer {
+    font-size: 30px;
+    width: 90%;
+    margin-bottom: 20px;
+    
+}
+
+
+.mail,
+.password,
+.confirmPassKey {
+    display: flex;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+
+.password input , .mail input{
+    font-size: 20px;
+    width: 78%;
+    border: none;
+    outline: none;
+}
+
+.confirmPassKey input {
+    width: 78.9%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.password input:focus , .mail input:focus, .confirmPassKey:focus {
+    border: none;
+    outline: none;
+}
+
+.password i {
+    margin: 10px;
+}
+
+
+.mail i {
+    margin: 8px;
+}
+
+.confirmPassKey i {
+    font-size: 25px;
+    margin: 8px;
+}
+.close {
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: grey;
+    position: absolute;
+    cursor: pointer;
+}
+
+#loginBtn {
+    width: 90%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-size: 30px;
+    padding: 15px;
+    margin: 25px 0 15px;
+    cursor: pointer;
+
+}
+
+.accountStatus {
+    font-size: 20px;
+    margin: 25px;
+    padding: 0;
+}
+
+.statusContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.registerLoginBtn {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 7px;
+    padding: 0;
+    align-self: center;
+}
+
+
+
+
+@media screen and (max-width:750px){
+    .bar {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+
+    .bar li {
+        margin: 10px;
+    }
+}
+
+
+
+

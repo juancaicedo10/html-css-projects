@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to right, rgb(10, 65, 10), rgb(196, 196, 56));
+}
+
+
+.contenedor {
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+    width: 90%;
+    height: 95vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    top:0;
+    left: 20%;
+    background-image: linear-gradient(to bottom, #FFA500, #FF0000);
+}
+
+.circulo_ {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #ff0000, #0000ff);
+    bottom: 0;
+    right:20%;
+}
+
+
+
+.personajes-container {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.123);
+    border: 1px solid white;
+    backdrop-filter: blur(40px);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    width: 370px;
+    height: 65vh;
+    align-items: center;
+}
+
+.title {
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom:0;
+}
+
+.tarjet {
+    list-style-type: none;
+    padding: 0;
+    font-size: 10px;
+    flex-direction: column;
+    width: 90%;
+}
+
+
+.tarjet li {
+    display: flex;
+    width: 94%;
+    background-color: rgba(255, 255, 255, 0.123);
+    align-items: center;
+    padding: 0;
+    margin-bottom:10px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.profile {
+    width: 60px;
+    border-radius: 10px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin: 7px;
+}
+
+.ocupacion {
+    font-size: 15px;
+}
+
+.number {
+    position: absolute;
+    right: 40px;
+    font-size: 40px;
+    color: transparent;
+}
+
+.tarjet li:hover {
+    display: flex;
+    width: 110%;
+    height: 100px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

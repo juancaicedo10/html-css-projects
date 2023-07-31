@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?cs=srgb&dl=pexels-vlad-alexandru-popa-1402787.jpg&fm=jpg);
+    background-size: cover;
+}
+
+
+.menu {
+    display: flex;
+    width: 200vh;
+    height: 50px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.menu li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.registration-screen {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transform: translateX(80vh);
+    width: 50vh;
+    top:20vh;
+    background-color: red;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.021);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+.title {
+    align-self: center;
+    font-size: 10px;
+    
+}
+
+.registration-screen div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+.registration-screen h1 {
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+.registration-screen input {
+    height: 30px;
+    border:none;
+    outline: none;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    width: 80%;
+}
+
+
+
+
+
+.registration-screen:focus {
+    border: none;
+    outline: none;
+}
+
+
+.register-button {
+    width: 80%;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    background-color: rgba(6, 255, 255, 0.274);
+    margin-top: 30px;
+    padding: 20px;
+    border: none;
+}
+
+.forgot {
+    text-decoration: none;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+
+
+

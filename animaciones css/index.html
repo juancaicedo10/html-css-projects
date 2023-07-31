@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cuadrado"></div>
+
+
+    <style>
+        #cuadrado {
+            display: flex;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: aqua;
+            animation-name: myAnimation;
+            animation-duration: 1s;
+            position: relative;
+            flex-direction: reverse;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes myAnimation {
+            0% {background: aqua; left:0; top:0;}
+            25%{background-color: red; left: 100vh; top:0;}
+            50% {background-color: aquamarine; left:100vh; top:80vh;}
+            75% {background-color: pink; left:0; top:80vh;}
+            100% {background-color: blue; left:0; top:0;}
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2020/10/relaxing-orange-sunset-evening-4k_1602606095.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size:cover;
+}
+
+
+.card {
+    position: relative;
+    margin-top: 10%;
+    padding: 0;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 450px;
+    border-radius: 25px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:0px 0px 50px black;
+}
+
+.card .profile {
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    border:5px solid orange;
+    box-shadow: 0px 0px 20px orange;
+    background-image: url("https://cdn.pixabay.com/photo/2023/05/23/12/48/pokemon-8012703_640.jpg");
+    background-size: cover;
+}
+
+.name {
+    padding: 0;
+    margin-top:0;
+}
+
+
+.card span {
+    color: orange;
+}
+
+.coleccionable {
+    font-size: 15px;
+}
+
+.name-icon-contenedor {
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+    justify-content: space-around;
+    border-top: 3px solid orange;
+    padding-top: 10px;
+}
+
+.icon-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: orange;
+}
+
+
+.font-image {
+    position: absolute;
+    display: flex;
+    background-color: rgb(160, 129, 129);
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/19/19/09/branches-1753745_640.jpg);
+    background-size: cover;
+}
+
+
+
+

@@ -1,0 +1,70 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(214, 253, 253);
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    width: 81%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    color: black;
+    list-style-type: none;
+}
+
+.list li {
+    background-color: white;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+    cursor: pointer;
+
+}
+
+.phones,
+.clothes,
+.shoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 340px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px black;
+    background-color: white;
+}
+
+.phones img,.clothes img ,.shoes img {
+    margin-top: 3px;
+    width: 98%;
+    height: 225px;
+}
+
+.phones h1 p, .clothes img p, .shoes img p {
+    padding: 10px;
+}
+
+
+

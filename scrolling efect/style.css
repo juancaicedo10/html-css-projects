@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url('https://wallpapers.com/images/hd/4k-mountain-l3f04sogeaabr5h0.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.first-container h1 {
+    color: rgba(0, 0, 0, 0.856);
+    font-size: 4.5em;
+    margin: 20px;
+    font-weight: 800;
+}
+
+
+.first-container p {
+    width: 60%;
+    color:white;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+
+#learnMore {
+    border-radius: 30px;
+    padding: 25px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+
+.second-container {
+    display: flex;
+    width: 100%;
+    height: 100vh ;
+    background-image: url('https://wallpapers.com/images/hd/4k-mountain-0hb4gnwalnj51zsh.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 30px white;
+    border: 5px;
+    margin: 10px;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    color: white;
+}
+
+.element img {
+    width: 95%;
+    height: auto;
+}
+
+.element p {
+    padding: 10px
+}
+
+
+.thirt-container {
+    width: 100%;
+    height: 70vh;
+    background-color: blue;
+    color: white;
+}
+

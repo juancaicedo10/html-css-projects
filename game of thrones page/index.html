@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+
+    <section class="card">
+        <h1 class="name">The Mother of Dragons</h1>
+        <div class="profile"></div>
+        <h1 class="nick">Daenarys Targaryen</h1>
+        <div class="social-media">
+            <i class="fab fa-instagram ig"></i>
+            <i class="fab fa-facebook fb"></i>
+            <i class="fab fa-twitter tw"></i>
+        </div>
+    </section>
+
+    <section class="card">
+        <h1 class="name">The Father of dragons</h1>
+        <div class="profile" style="background-image: url(https://pyxis.nymag.com/v1/imgs/7ad/fa0/4eb41a9408fb016d6eed17b1ffd1c4d515-07-jon-snow.rsquare.w330.jpg); background-size: cover; ; height: 200px;"></div>
+        <h1 class="nick">Jonh Snow</h1>
+        <div class="social-media">
+            <i class="fab fa-instagram" id="ig-snow"></i>
+            <i class="fab fa-facebook" id="fb-snow"></i>
+            <i class="fab fa-twitter" id="tw-snow"></i>
+        </div>
+    </section>
+
+    <script>
+        const instagram = document.getElementsByClassName("ig")[0];
+        const facebook = document.getElementsByClassName("fb")[0];
+        const twitter = document.getElementsByClassName("tw")[0];
+        const instagram_ = document.getElementById(".ig-snow");
+
+        instagram.addEventListener("click" , function () {
+            window.location.href = "https://www.instagram.com/emilia_clarke";
+        })
+
+        twitter.addEventListener("click" , function () {
+            window.location.href = "https://www.twitter.com/emiliaclarke"
+        })
+
+        instagram_.addEventListener ("click" , function () {
+            window.location.href = "https://www.instagram.com/jonsnow"
+        })
+
+
+    </script>
+</body>
+</html>

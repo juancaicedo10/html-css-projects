@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="interruptor">
+        <div class="button"></div>
+    </div>
+
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            transform: translateY(50%);
+        }
+
+        .interruptor {
+            position: relative;
+            background-color: white;
+            width: 400px;
+            height: 100px;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: background-color 0.3 ease;
+        }
+
+        .interruptor.active {
+            background-color: black;
+        }
+
+        .button {
+            position: absolute;
+            width: 100%;
+            height:58px;
+            border-radius: 50%;
+            height: 100%;
+            background-color: rgb(0,0,0);
+        }
+
+        .interruptor.active .button {
+            right: calc(100% - 100px);
+        }
+    </style>
+
+</body>
+
+<script>
+    const interruptor = document.querySelector(".interruptor");
+    interruptor.addEventListener("click", function () {
+       interruptor.classList.toggle("active");
+    })
+</script>
+
+</html>

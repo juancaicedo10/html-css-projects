@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    background-image: url(https://wallpaperaccess.com/full/47720.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    transform: translateY(50%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+
+
+.card {
+    display: flex;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.247);
+    backdrop-filter: blur(4px);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    margin-right:25px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSz-9bJtpIk0zcWJiMVhUOD3dhbFxgF2fFS82BtWeEJ0-GVcdwqELkLoOUz1tm3VVZVZk&usqp=CAU);
+    background-size: cover;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.social-media {
+    display: flex;
+    color: white;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-media i {
+    cursor: pointer;
+}
+
+.dragon {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-size: cover;
+    left:0;
+    top:33%;
+}
+
+.nick {
+    font-size: 20px;
+}
+
+@media (max-width:720px) {
+    .body {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:Helvetica, Arial, sans-serif;
+    
+}
+
+.contenedor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border: 1px solid grey;
+}
+
+.contenedor2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    position: relative;
+    font-size: 80px;
+    margin: 50px;
+    font-family: "Brush Script MT", cursive;
+
+}
+
+.correo,
+.password {
+    background-color: #fafafa;
+    border-radius: 4px;
+    width:300px;
+    height: 35px;
+    margin-bottom:6px;
+    border:0;
+    outline: 0;
+}
+
+.sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(81, 178, 238);
+    width: 300px;
+    height: 34px;
+    color: white;
+    border-radius: 7px;
+    margin: 7px;
+    border:0;
+}
+
+.raya {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.or {
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin:10px;
+    padding-left:15px;
+    padding-right: 15px;
+    font-family:Helvetica, Arial, sans-serif;
+    color: grey;
+}
+
+.facebook {
+    color:#385185;
+    display: flex;
+    position: relative;
+    top:50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.forgot {
+    color:black;
+    display: flex;
+    position: absolute;
+    font-size: 14px;
+    margin: 30px;
+    bottom: 0;
+    text-decoration: none;
+}
+
+.contenedor2 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    border: 1px solid grey;
+    top: 725px;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-account {
+    color: black;
+    font-size: 15px;
+}
+
+.register {
+    color:rgb(81, 178, 238);
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+

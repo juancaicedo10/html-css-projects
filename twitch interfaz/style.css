@@ -1,0 +1,367 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.chanelBar {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 50px;
+    background-color: #F4F4F4;
+    margin-top: 45px;
+}
+
+.search-bar {
+   position: absolute;
+   display: flex;
+   height: 45px;
+   width: 200vh;
+   top: 0;
+   background-color: #F4F4F4;
+   justify-content: flex-start;
+   align-items:center;
+   box-shadow: 5px 0px 5px rgb(117, 115, 115);
+   border-left: 0px;
+}
+
+  #left-button{
+    display: flex;
+    position: absolute;
+    font-size: 22px;
+    top: 160px;
+    left: 100px;
+    padding: 10px;
+
+  }
+
+  #left-button:hover {
+    background-color: #F4F4F4;
+    border-radius: 30%;
+    padding: 10px;
+  }
+  
+  
+  #right-button {
+    display: flex;
+    position: absolute;
+    font-size: 22px;
+    top:160px;
+    left: 890px;
+    padding: 10px;
+
+  }
+
+  #right-button:hover {
+    background-color: #F4F4F4;
+    padding: 10px;
+    border-radius: 30%;
+  }
+
+
+input[type="text"], button {
+    border: none;
+    outline: none;
+    box-shadow: none; /* Quita la sombra */
+  }
+  
+  button {
+    background-color: transparent; /* Quita el fondo del botón */
+  }
+
+
+.circle{
+ position: relative;
+  height: 34px;
+  width: 34px;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  top:25px;
+  background-image: url(https://cdn.pixabay.com/photo/2017/09/25/13/12/puppy-2785074_1280.jpg);
+  background-size: cover;
+}
+
+.points {
+position: relative;
+left: 30px;
+transform: rotate(-90deg);
+font-size: 30px;
+color: black;
+}
+
+.corazon {
+    font-size: 17px; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top:12px;
+    color: blueviolet;
+}
+
+.icon {
+    position: relative;
+    font-size: 27px;
+    left: 12px;
+    color:blueviolet;
+}
+
+.Following, 
+.Browse {
+    left:10px;
+    position: relative;
+    color:rgb(0, 0, 0);
+    margin-left:22px;
+    font-size:15px
+}
+
+.bar-search {
+    position: relative;
+    display: flex;
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    left:100px;
+}
+
+.search-bar input {
+    flex:1;
+    border:none;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.search-bar button {
+    background-color: grey;
+    border: none;
+    color:rgb(255, 255, 255);
+    padding: 3px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+.channel {
+    display: flex;
+    height: 300px;
+    width: 700px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 150px;
+    top: 70px;
+}
+
+.description {
+    position: absolute;
+    height:300px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    right: 0;
+    top:0;
+    box-shadow: 5px 0px 50px rgb(117, 115, 115);
+}
+
+.circulo {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    margin:10px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/10/21/53/dark-art-2838965_1280.jpg);
+    background-size: cover;
+
+}
+
+.name {
+    position: relative;
+    font-size: 15px;
+    left: 80px;
+    bottom: 70px;
+    color: blueviolet;
+    line-height: 1.5;
+}
+
+.white {
+    color:white
+}
+.etiquetas {
+    display: inline-block;
+    position: relative;
+    font-size:15px;
+    background-color: #B3B4B7;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+    color: grey;
+    bottom: 60px;
+    left: 10px;
+}
+
+.description-channel {
+    display: inline-block;
+    position: absolute;
+    left:10px;
+    right: 10px;
+    top: 125px;
+    color: black;
+}
+
+.violet {
+    color: blueviolet;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.recomend {
+    display: flex;
+    position: absolute;
+    top:430px;
+    color:black;
+    left:70px;
+    font-size: 20px;
+
+}
+
+
+.block {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 230px;
+    background-color: grey;
+    margin-right: 10px;
+    top: 570px;
+    right: 450px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid transparent;
+    transition: margin 0.3s;
+}
+
+.live {
+    display: inline;
+    position: absolute;
+    font-size: 15px;
+    background-color: red;
+    padding: 4px;
+    border-radius: 20%;
+}
+
+.views {
+    display: inline;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.514);
+    font-size:15px;
+    padding: 4px;
+    bottom: 10px;
+}
+
+.profile {
+    display: inline;
+    position: relative;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    top:250px;
+    left:-10px;
+    margin: 5px;
+}
+
+.contenedor {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 150px;
+    top:260px;
+    left:60px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #B3B4B7;
+    padding-left:60px;
+    left:0
+}
+
+.contenedor h1 {
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.title {
+    color: black;
+    font-size: 17px;
+}
+
+.title:hover {
+    color: blueviolet;
+}
+
+.names , .game{
+    color: #B3B4B7;
+    font-size: 16px;
+}
+
+.more {
+    display: inline;
+    z-index: 1;
+    position: absolute;
+    background-color:white;
+    color: blueviolet;
+    top:860px;
+    left:450px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.more:hover {
+    background-color: #B3B4B7;
+    color: black;
+}
+
+.abajo{
+    margin-left: 10px;
+    transform: rotate(270deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

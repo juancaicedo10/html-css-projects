@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin: 30px;
+    padding: 0;
+  }
+
+  .contenedor {
+    height: 93vh;
+    display: flex;
+    position: relative;
+    background: linear-gradient(to right, red, orange);
+    padding-right: 5%;
+  }
+
+  .h-bar {
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    width: 95%;
+    justify-content: flex-end;
+  }
+
+  .h-bar li {
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+
+  .text-content {
+    width: 45%;
+    margin-top: 7%;
+    padding-left: 10%;
+  }
+
+  .text-content h1 {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-content span {
+    color: white;
+    font-size: 120px;
+  }
+
+  .text-content p {
+    color: white;
+    font-size: 25px;
+  }
+
+  .order {
+    font-size: 30px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .iconos {
+    display: flex;
+    width: 25%;
+    margin-top: 50px;
+  }
+
+  .iconos i {
+    font-size: 40px;
+    color: white;
+    margin-right: 20%;
+    cursor: pointer;
+   }
+
+  img {
+    display: flex;
+    width: 30%;
+    align-self: center;
+    justify-self: flex-end;
+    
+  }
+
+  .iconos i:first-child:hover {
+    color: #1877F2;
+  }
+
+  .iconos > :nth-child(2):hover {
+    color: #1DA1F2;
+  }
+
+  .iconos > :nth-child(3):hover {
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to bottom, #FCAF45, #FF5E75);
+  }
+
+  img {
+    height: 600px;
+    position: relative;
+    align-self: center;
+    top:2em;
+    left:10em;
+  }
+
+  @media screen and (max-width: 1100px) {
+
+    .text-content {
+      width: auto;
+      height: auto;
+      padding: 0;
+      text-align: center;
+    }
+
+    .contenedor {
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+     flex-direction: column;
+     height: 900px;
+    }
+
+    img {
+      display: flex;
+      align-self: center;
+      top:2em;
+      left:0;
+      height: 250px;
+    }
+
+
+    .h-bar {
+      width: 100%;
+      margin-top: 10px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      position: none;
+
+    }
+
+    .text-content h1 {
+      padding-top: 10px;
+      font-size: 60px;
+    }
+
+    .text-content span {
+      font-size: 72px;
+    }
+
+    .text-content p {
+      font-size: 18px;
+    }
+
+    .iconos {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+    }
+
+    .iconos i {
+      font-size: 30px;
+      margin: 15px;
+    }
+  }

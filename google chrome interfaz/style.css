@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/08/20/52/stars-1655504_1280.jpg);
+    background-size: cover;
+
+}
+.header {
+    display: flex;
+    width: 200vh;
+    height: auto;
+    padding: 10px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+
+.Gmail,
+.images {
+    display: inline-flex;
+    margin-right:10px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: transparent;
+    justify-content: center;
+
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    font-size: 87px;
+    top:90px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.busqueda {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 561px;
+    height: 44px;
+    top:230px;
+    border-radius:30px;
+    align-items: center;
+    border: 1px solid grey;
+}
+
+
+.lupa,
+.microfono,
+.camara {
+    position: absolute;
+    font-size:20px;
+    color: grey;
+}
+
+.lupa {
+    left:25px;
+}
+
+.microfono {
+    right: 70px;
+}
+
+.camara {
+    right:30px
+}
+
+.input {
+    border: none;
+    display: flex;
+    position: absolute;
+    left:65px;
+    font-size:20px;
+    width: 70%;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.contenedor2 {
+    display: flex;
+    position: absolute;
+    height:228px;
+    width: 577px;
+    background-color: transparent;
+    top:300px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+  
+.circle img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.name {
+    display: flex;
+    height: 35px;
+    width: 95px;
+    border: 1px solid rgba(255, 237, 237, 0.856);
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    border-radius: 20px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contenedor2 i {
+    font-size: 20px;
+}
+
+.contenedor2 a {
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-right:2px;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:5px ;
+    text-decoration:none ;
+    color: inherit;
+}
+
+a:hover {
+    background-color: rgba(128, 128, 128, 0.4); 
+}
+
+
+
+@media all and (max-width:600px) {
+    
+    .container {
+        display: flex;
+        position: relative;
+        width: 100vh;
+        height: auto;
+        margin-left: 50px;
+        background-color: transparent;
+        justify-content: center;
+    
+    }
+    .header {
+        width: 600px;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        background-color: rgb(0, 0, 0);
+        justify-content: flex-end;
+    }
+
+    
+    .logo {
+        display: flex;
+        position: absolute;
+        color: white;
+        height: 92px;
+        width: 272px;
+        background-color: transparent;
+        font-size: 70px;
+        top:90px;
+        font-weight: bold;
+    }
+
+    .busqueda {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    input:focus {
+        outline: none;
+        border: none;
+    }
+}
+
+
+
+
+
